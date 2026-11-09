@@ -13,6 +13,11 @@ Nothing here restricts the rights the Copernicus licence gives you over the orig
 
 Flight data in the issues comes from adsb.lol (Open Database Licence); heat from NASA FIRMS (open, with attribution).
 
+Building positions: most single-building boxes in `index.json` were checked and recentred against OpenStreetMap (see
+[POSITIONS.md](POSITIONS.md)). Map data © OpenStreetMap contributors, available under the
+[Open Database Licence](https://opendatacommons.org/licenses/odbl/1-0/). The site positions and boxes, as a database,
+are offered under the ODbL; the images themselves are not affected.
+
 ## RWI's processing: Roger Wilco Imagery Terms of Use
 
 The processed quicklooks, the Watch issues and plates, their selection and the indexes are RWI Materials under the
