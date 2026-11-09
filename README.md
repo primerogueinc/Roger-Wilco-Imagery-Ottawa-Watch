@@ -88,9 +88,11 @@ campuses give the wider view.
 - `baselines/<place>/…_rgb.json`: georeference sidecar (CRS, bounds in that CRS, pixel size).
 - `index.json`: every image with its scene id, acquisition time (UTC), cloud and clear-sky fractions, and how it was cloud-masked.
 
-## Daily Watch issues
+## Watch issues
 
-`issues/<date>/` holds each daily Ottawa Watch issue, RWI-W-OTTAWA-<date>, from 1 Nov 2026:
+`issues/<date>/` holds each Ottawa Watch issue, RWI-W-OTTAWA-<date>. Issues ran daily from 1 Nov 2026; from 9 Nov there is a full
+issue every Monday (UTC), plus an issue on any other day when something notable shows up (foreign military or state aircraft near a
+site, low traffic close to a site, or heat inside a site):
 
 - `WATCH.md`: the issue. It covers military and government flights over the capital region for the day before (UTC), from
   community ADS-B; heat detections (NASA FIRMS); and the newest clear Sentinel-2 pass per place.
