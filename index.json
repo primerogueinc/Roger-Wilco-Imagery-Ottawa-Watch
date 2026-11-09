@@ -1,0 +1,717 @@
+{
+ "about": "Roger Wilco Imagery \u2014 Ottawa Watch baseline imagery. Clear Sentinel-2 quicklooks (JPEG + georeference sidecar) per place, from RWI's baseline backfill. Images are in baselines/<site>/. Same record shape as the RWI pipeline's data/baseline-imagery/index.json.",
+ "watch": {
+  "id": "ottawa",
+  "code": "OTTAWA",
+  "title": "Ottawa Watch"
+ },
+ "synced_utc": "2026-11-09T06:18:31Z",
+ "source_generated": "2026-11-09T06:16:06+00:00",
+ "attribution": "Contains modified Copernicus Sentinel data 2026, processed by Roger Wilco Imagery",
+ "sites": [
+  {
+   "id": "ott-campus-confederation-heights",
+   "name": "Confederation Heights",
+   "type": "zone",
+   "bbox": [
+    -75.697,
+    45.372,
+    -75.678,
+    45.386
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261029_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261029_0_L2A"
+     ],
+     "datetime": "2026-10-29T16:10:33.379000+00:00",
+     "clear_frac": 0.994,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 39.9189,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261029_S2C_18TVR_20261029_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260924_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260924_0_L2A"
+     ],
+     "datetime": "2026-09-24T16:10:35.133000+00:00",
+     "clear_frac": 0.997,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.000534,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260924_S2B_18TVR_20260924_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260822_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260822_0_L2A"
+     ],
+     "datetime": "2026-08-22T16:00:35.134000+00:00",
+     "clear_frac": 0.996,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 19.845429,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260822_S2B_18TVR_20260822_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2A_18TVR_20260720_1_L2A",
+     "tiles": [
+      "S2A_18TVR_20260720_1_L2A"
+     ],
+     "datetime": "2026-07-20T16:00:59.809000+00:00",
+     "clear_frac": 0.994,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 38.019344,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260720_S2A_18TVR_20260720_1_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T06:15:49+00:00",
+   "candidates": 48,
+   "tried": 1,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-07-20"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-campus-nrc-montreal-road",
+   "name": "NRC Montreal Road campus",
+   "type": "zone",
+   "bbox": [
+    -75.629,
+    45.442,
+    -75.605,
+    45.456
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261029_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261029_0_L2A"
+     ],
+     "datetime": "2026-10-29T16:10:33.379000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 39.9189,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261029_S2C_18TVR_20261029_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260924_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260924_0_L2A"
+     ],
+     "datetime": "2026-09-24T16:10:35.133000+00:00",
+     "clear_frac": 0.999,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.000534,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260924_S2B_18TVR_20260924_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260822_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260822_0_L2A"
+     ],
+     "datetime": "2026-08-22T16:00:35.134000+00:00",
+     "clear_frac": 0.998,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 19.845429,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260822_S2B_18TVR_20260822_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2A_18TVR_20260720_1_L2A",
+     "tiles": [
+      "S2A_18TVR_20260720_1_L2A"
+     ],
+     "datetime": "2026-07-20T16:00:59.809000+00:00",
+     "clear_frac": 0.868,
+     "clear_frac_scl": 0.869,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 38.019344,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260720_S2A_18TVR_20260720_1_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T06:15:58+00:00",
+   "candidates": 49,
+   "tried": 1,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 0.869,
+    "date": "2026-07-20"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-campus-ogilvie-intel",
+   "name": "CSE / CSIS Ogilvie Road cluster",
+   "type": "zone",
+   "bbox": [
+    -75.622,
+    45.4315,
+    -75.609,
+    45.44
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261029_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261029_0_L2A"
+     ],
+     "datetime": "2026-10-29T16:10:33.379000+00:00",
+     "clear_frac": 0.96,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 39.9189,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261029_S2C_18TVR_20261029_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260924_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260924_0_L2A"
+     ],
+     "datetime": "2026-09-24T16:10:35.133000+00:00",
+     "clear_frac": 0.941,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.000534,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260924_S2B_18TVR_20260924_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260822_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260822_0_L2A"
+     ],
+     "datetime": "2026-08-22T16:00:35.134000+00:00",
+     "clear_frac": 0.931,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 19.845429,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260822_S2B_18TVR_20260822_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260716_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260716_0_L2A"
+     ],
+     "datetime": "2026-07-16T16:10:35.729000+00:00",
+     "clear_frac": 0.968,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 33.034825,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260716_S2B_18TVR_20260716_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T06:16:02+00:00",
+   "candidates": 49,
+   "tried": 2,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 0.083,
+    "date": "2026-07-20"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-campus-place-du-portage",
+   "name": "Place du Portage I-IV",
+   "type": "zone",
+   "bbox": [
+    -75.724,
+    45.4245,
+    -75.7125,
+    45.432
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261029_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261029_0_L2A"
+     ],
+     "datetime": "2026-10-29T16:10:33.379000+00:00",
+     "clear_frac": 0.993,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 39.9189,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261029_S2C_18TVR_20261029_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260926_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260926_0_L2A"
+     ],
+     "datetime": "2026-09-26T16:00:39.699000+00:00",
+     "clear_frac": 0.989,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 37.706071,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260926_S2C_18TVR_20260926_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260815_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260815_0_L2A"
+     ],
+     "datetime": "2026-08-15T16:10:33.291000+00:00",
+     "clear_frac": 0.976,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 22.760047,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260815_S2B_18TVR_20260815_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260711_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260711_0_L2A"
+     ],
+     "datetime": "2026-07-11T16:10:36.217000+00:00",
+     "clear_frac": 0.951,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.434753,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260711_S2C_18TVR_20260711_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T06:15:51+00:00",
+   "candidates": 48,
+   "tried": 1,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-07-11"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-campus-terrasses-chaudiere",
+   "name": "Les Terrasses de la Chaudiere",
+   "type": "zone",
+   "bbox": [
+    -75.725,
+    45.423,
+    -75.717,
+    45.4285
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261029_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261029_0_L2A"
+     ],
+     "datetime": "2026-10-29T16:10:33.379000+00:00",
+     "clear_frac": 0.972,
+     "clear_frac_scl": 0.986,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 39.9189,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261029_S2C_18TVR_20261029_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260926_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260926_0_L2A"
+     ],
+     "datetime": "2026-09-26T16:00:39.699000+00:00",
+     "clear_frac": 0.994,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 37.706071,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260926_S2C_18TVR_20260926_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260815_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260815_0_L2A"
+     ],
+     "datetime": "2026-08-15T16:10:33.291000+00:00",
+     "clear_frac": 0.971,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 22.760047,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260815_S2B_18TVR_20260815_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260711_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260711_0_L2A"
+     ],
+     "datetime": "2026-07-11T16:10:36.217000+00:00",
+     "clear_frac": 0.961,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.434753,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260711_S2C_18TVR_20260711_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T06:15:52+00:00",
+   "candidates": 48,
+   "tried": 1,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-07-11"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-campus-tunneys-pasture",
+   "name": "Tunney's Pasture",
+   "type": "zone",
+   "bbox": [
+    -75.742,
+    45.3985,
+    -75.726,
+    45.4075
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261029_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261029_0_L2A"
+     ],
+     "datetime": "2026-10-29T16:10:33.379000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 39.9189,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261029_S2C_18TVR_20261029_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260924_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260924_0_L2A"
+     ],
+     "datetime": "2026-09-24T16:10:35.133000+00:00",
+     "clear_frac": 0.997,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.000534,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260924_S2B_18TVR_20260924_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260815_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260815_0_L2A"
+     ],
+     "datetime": "2026-08-15T16:10:33.291000+00:00",
+     "clear_frac": 0.998,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 22.760047,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260815_S2B_18TVR_20260815_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260711_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260711_0_L2A"
+     ],
+     "datetime": "2026-07-11T16:10:36.217000+00:00",
+     "clear_frac": 0.997,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.434753,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260711_S2C_18TVR_20260711_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T06:15:45+00:00",
+   "candidates": 48,
+   "tried": 1,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-07-11"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-downtown-core",
+   "name": "Ottawa downtown core (Parliament, Wellington, Sparks, Laurier)",
+   "type": "zone",
+   "bbox": [
+    -75.714,
+    45.414,
+    -75.688,
+    45.429
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261029_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261029_0_L2A"
+     ],
+     "datetime": "2026-10-29T16:10:33.379000+00:00",
+     "clear_frac": 0.99,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 39.9189,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261029_S2C_18TVR_20261029_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260926_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260926_0_L2A"
+     ],
+     "datetime": "2026-09-26T16:00:39.699000+00:00",
+     "clear_frac": 0.958,
+     "clear_frac_scl": 0.969,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 37.706071,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260926_S2C_18TVR_20260926_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260815_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260815_0_L2A"
+     ],
+     "datetime": "2026-08-15T16:10:33.291000+00:00",
+     "clear_frac": 0.948,
+     "clear_frac_scl": 0.96,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 22.760047,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260815_S2B_18TVR_20260815_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260711_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260711_0_L2A"
+     ],
+     "datetime": "2026-07-11T16:10:36.217000+00:00",
+     "clear_frac": 0.97,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.434753,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260711_S2C_18TVR_20260711_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T06:16:05+00:00",
+   "candidates": 48,
+   "tried": 1,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-07-11"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-gatineau-core",
+   "name": "Gatineau federal district (Place du Portage, Terrasses de la Chaudi\u00e8re, 30 Victoria)",
+   "type": "zone",
+   "bbox": [
+    -75.727,
+    45.422,
+    -75.71,
+    45.433
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261029_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261029_0_L2A"
+     ],
+     "datetime": "2026-10-29T16:10:33.379000+00:00",
+     "clear_frac": 0.975,
+     "clear_frac_scl": 0.978,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 39.9189,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261029_S2C_18TVR_20261029_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260926_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260926_0_L2A"
+     ],
+     "datetime": "2026-09-26T16:00:39.699000+00:00",
+     "clear_frac": 0.995,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 37.706071,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260926_S2C_18TVR_20260926_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260815_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260815_0_L2A"
+     ],
+     "datetime": "2026-08-15T16:10:33.291000+00:00",
+     "clear_frac": 0.987,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 22.760047,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260815_S2B_18TVR_20260815_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260711_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260711_0_L2A"
+     ],
+     "datetime": "2026-07-11T16:10:36.217000+00:00",
+     "clear_frac": 0.974,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.434753,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260711_S2C_18TVR_20260711_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T06:16:06+00:00",
+   "candidates": 48,
+   "tried": 1,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-07-11"
+   },
+   "errors": []
+  }
+ ]
+}
