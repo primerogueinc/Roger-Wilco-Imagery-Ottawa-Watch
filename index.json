@@ -5,8 +5,8 @@
   "code": "OTTAWA",
   "title": "Ottawa Watch"
  },
- "synced_utc": "2026-11-09T07:15:22Z",
- "source_generated": "2026-11-09T07:14:34+00:00",
+ "synced_utc": "2026-11-09T08:43:30Z",
+ "source_generated": "2026-11-09T08:42:51+00:00",
  "attribution": "Contains modified Copernicus Sentinel data 2026, processed by Roger Wilco Imagery",
  "sites": [
   {
@@ -102,10 +102,10 @@
    "name": "Agriculture and Agri-Food Canada (NHCAP, Central Experimental Farm)",
    "type": "government",
    "bbox": [
-    -75.7202,
-    45.36955,
-    -75.7138,
-    45.37405
+    -75.73871,
+    45.36293,
+    -75.73231,
+    45.36742
    ],
    "passes": [],
    "baseline": null,
@@ -116,7 +116,7 @@
       "S2C_18TVR_20261108_0_L2A"
      ],
      "datetime": "2026-11-08T16:10:31.911000+00:00",
-     "clear_frac": 1.0,
+     "clear_frac": 0.948,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 25.061351,
@@ -132,7 +132,7 @@
       "S2C_18TVR_20261006_1_L2A"
      ],
      "datetime": "2026-10-06T16:00:40.326000+00:00",
-     "clear_frac": 1.0,
+     "clear_frac": 0.938,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 0.001358,
@@ -148,7 +148,7 @@
       "S2C_18TVR_20260906_0_L2A"
      ],
      "datetime": "2026-09-06T16:00:36.524000+00:00",
-     "clear_frac": 1.0,
+     "clear_frac": 0.933,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 5.4809,
@@ -164,7 +164,7 @@
       "S2B_18TVR_20260805_0_L2A"
      ],
      "datetime": "2026-08-05T16:10:35.433000+00:00",
-     "clear_frac": 1.0,
+     "clear_frac": 0.955,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 0.353051,
@@ -175,7 +175,7 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:11:04+00:00",
+   "checked": "2026-11-09T08:40:56+00:00",
    "candidates": 48,
    "tried": 4,
    "best_seen": {
@@ -894,10 +894,10 @@
    "name": "Canada Border Services Agency HQ",
    "type": "government",
    "bbox": [
-    -75.70052,
-    45.41725,
-    -75.69668,
-    45.41995
+    -75.69777,
+    45.41887,
+    -75.69393,
+    45.42157
    ],
    "passes": [],
    "baseline": null,
@@ -924,7 +924,7 @@
       "S2C_18TVR_20261006_1_L2A"
      ],
      "datetime": "2026-10-06T16:00:40.326000+00:00",
-     "clear_frac": 1.0,
+     "clear_frac": 0.977,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 0.001358,
@@ -940,7 +940,7 @@
       "S2C_18TVR_20260906_0_L2A"
      ],
      "datetime": "2026-09-06T16:00:36.524000+00:00",
-     "clear_frac": 1.0,
+     "clear_frac": 0.949,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 5.4809,
@@ -956,7 +956,7 @@
       "S2B_18TVR_20260805_0_L2A"
      ],
      "datetime": "2026-08-05T16:10:35.433000+00:00",
-     "clear_frac": 1.0,
+     "clear_frac": 0.972,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 0.353051,
@@ -967,7 +967,7 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:12:30+00:00",
+   "checked": "2026-11-09T08:41:48+00:00",
    "candidates": 48,
    "tried": 4,
    "best_seen": {
@@ -1070,10 +1070,10 @@
    "name": "Canadian Food Inspection Agency",
    "type": "government",
    "bbox": [
-    -75.7392,
-    45.35075,
-    -75.7328,
-    45.35525
+    -75.73529,
+    45.36388,
+    -75.72889,
+    45.36838
    ],
    "passes": [],
    "baseline": null,
@@ -1100,7 +1100,7 @@
       "S2C_18TVR_20261006_1_L2A"
      ],
      "datetime": "2026-10-06T16:00:40.326000+00:00",
-     "clear_frac": 1.0,
+     "clear_frac": 0.99,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 0.001358,
@@ -1116,7 +1116,7 @@
       "S2C_18TVR_20260906_0_L2A"
      ],
      "datetime": "2026-09-06T16:00:36.524000+00:00",
-     "clear_frac": 1.0,
+     "clear_frac": 0.964,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 5.4809,
@@ -1132,7 +1132,7 @@
       "S2B_18TVR_20260805_0_L2A"
      ],
      "datetime": "2026-08-05T16:10:35.433000+00:00",
-     "clear_frac": 1.0,
+     "clear_frac": 0.965,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 0.353051,
@@ -1143,7 +1143,7 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:13:00+00:00",
+   "checked": "2026-11-09T08:42:03+00:00",
    "candidates": 48,
    "tried": 4,
    "best_seen": {
@@ -1158,10 +1158,10 @@
    "name": "Embassy of China",
    "type": "diplomatic",
    "bbox": [
-    -75.68936,
-    45.4314,
-    -75.68424,
-    45.435
+    -75.68756,
+    45.43448,
+    -75.68244,
+    45.43808
    ],
    "passes": [],
    "baseline": null,
@@ -1231,7 +1231,7 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:14:22+00:00",
+   "checked": "2026-11-09T08:42:41+00:00",
    "candidates": 48,
    "tried": 4,
    "best_seen": {
@@ -1334,10 +1334,10 @@
    "name": "Canadian Nuclear Safety Commission",
    "type": "government",
    "bbox": [
-    -75.70642,
-    45.41725,
-    -75.70258,
-    45.41995
+    -75.70248,
+    45.41733,
+    -75.69864,
+    45.42003
    ],
    "passes": [],
    "baseline": null,
@@ -1407,7 +1407,7 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:14:07+00:00",
+   "checked": "2026-11-09T08:42:33+00:00",
    "candidates": 48,
    "tried": 4,
    "best_seen": {
@@ -1422,10 +1422,10 @@
    "name": "Canadian Coast Guard HQ",
    "type": "government",
    "bbox": [
-    -75.70522,
-    45.41585,
-    -75.70138,
-    45.41855
+    -75.70338,
+    45.41577,
+    -75.69954,
+    45.41847
    ],
    "passes": [],
    "baseline": null,
@@ -1468,7 +1468,7 @@
       "S2C_18TVR_20260906_0_L2A"
      ],
      "datetime": "2026-09-06T16:00:36.524000+00:00",
-     "clear_frac": 0.933,
+     "clear_frac": 0.947,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 5.4809,
@@ -1495,7 +1495,7 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:12:45+00:00",
+   "checked": "2026-11-09T08:40:51+00:00",
    "candidates": 48,
    "tried": 4,
    "best_seen": {
@@ -1510,10 +1510,10 @@
    "name": "Competition Bureau, Place du Portage Phase I",
    "type": "government",
    "bbox": [
-    -75.71872,
-    45.42745,
-    -75.71488,
-    45.43015
+    -75.71483,
+    45.42699,
+    -75.71099,
+    45.42968
    ],
    "passes": [],
    "baseline": null,
@@ -1583,7 +1583,7 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:13:57+00:00",
+   "checked": "2026-11-09T08:40:29+00:00",
    "candidates": 48,
    "tried": 4,
    "best_seen": {
@@ -1686,9 +1686,9 @@
    "name": "CRTC, Terrasses de la Chaudiere (Central Building)",
    "type": "government",
    "bbox": [
-    -75.72192,
+    -75.72371,
     45.42385,
-    -75.71808,
+    -75.71987,
     45.42655
    ],
    "passes": [],
@@ -1759,7 +1759,7 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:14:02+00:00",
+   "checked": "2026-11-09T08:41:00+00:00",
    "candidates": 48,
    "tried": 4,
    "best_seen": {
@@ -1774,10 +1774,10 @@
    "name": "Correctional Service Canada NHQ",
    "type": "government",
    "bbox": [
-    -75.70752,
-    45.41565,
-    -75.70368,
-    45.41835
+    -75.70187,
+    45.41653,
+    -75.69803,
+    45.41923
    ],
    "passes": [],
    "baseline": null,
@@ -1847,7 +1847,7 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:12:49+00:00",
+   "checked": "2026-11-09T08:41:55+00:00",
    "candidates": 48,
    "tried": 4,
    "best_seen": {
@@ -1862,28 +1862,28 @@
    "name": "Communications Security Establishment, Edward Drake Building",
    "type": "government",
    "bbox": [
-    -75.6197,
-    45.43195,
-    -75.6133,
-    45.43645
+    -75.61899,
+    45.43301,
+    -75.61259,
+    45.43752
    ],
    "passes": [],
    "baseline": null,
    "baselines": [
     {
-     "id": "S2C_18TVR_20261029_0_L2A",
+     "id": "S2C_18TVR_20261108_0_L2A",
      "tiles": [
-      "S2C_18TVR_20261029_0_L2A"
+      "S2C_18TVR_20261108_0_L2A"
      ],
-     "datetime": "2026-10-29T16:10:33.379000+00:00",
-     "clear_frac": 0.873,
-     "clear_frac_scl": 1.0,
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 0.858,
+     "clear_frac_scl": 0.986,
      "valid_frac": 1.0,
-     "scene_cloud_pct": 39.9189,
+     "scene_cloud_pct": 25.061351,
      "cloud_mask": "scl+cloudmask-1",
      "source": "baseline_backfill",
      "files": [
-      "baseline_s2_20261029_S2C_18TVR_20261029_0_L2A_rgb.jpg"
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
      ]
     },
     {
@@ -1892,7 +1892,7 @@
       "S2B_18TVR_20260726_0_L2A"
      ],
      "datetime": "2026-07-26T16:10:36.389000+00:00",
-     "clear_frac": 0.866,
+     "clear_frac": 0.878,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 27.035809,
@@ -1903,12 +1903,12 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:12:07+00:00",
-   "candidates": 48,
+   "checked": "2026-11-09T08:41:31+00:00",
+   "candidates": 49,
    "tried": 20,
    "best_seen": {
     "cover": 1.0,
-    "clear_scl": 0.976,
+    "clear_scl": 0.986,
     "date": "2026-11-08"
    },
    "errors": []
@@ -2006,10 +2006,10 @@
    "name": "Fisheries and Oceans Canada",
    "type": "government",
    "bbox": [
-    -75.70522,
-    45.41585,
-    -75.70138,
-    45.41855
+    -75.70338,
+    45.41577,
+    -75.69954,
+    45.41847
    ],
    "passes": [],
    "baseline": null,
@@ -2052,7 +2052,7 @@
       "S2C_18TVR_20260906_0_L2A"
      ],
      "datetime": "2026-09-06T16:00:36.524000+00:00",
-     "clear_frac": 0.933,
+     "clear_frac": 0.947,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 5.4809,
@@ -2079,7 +2079,7 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:10:57+00:00",
+   "checked": "2026-11-09T08:40:48+00:00",
    "candidates": 48,
    "tried": 4,
    "best_seen": {
@@ -2094,60 +2094,44 @@
    "name": "National Defence HQ, Carling campus",
    "type": "government",
    "bbox": [
-    -75.825,
-    45.342,
-    -75.805,
-    45.356
+    -75.86099,
+    45.3434,
+    -75.84099,
+    45.3574
    ],
    "passes": [],
    "baseline": null,
    "baselines": [
     {
-     "id": "S2C_18TVR_20261108_0_L2A",
+     "id": "S2C_18TVR_20261029_0_L2A",
      "tiles": [
-      "S2C_18TVR_20261108_0_L2A"
+      "S2C_18TVR_20261029_0_L2A"
      ],
-     "datetime": "2026-11-08T16:10:31.911000+00:00",
-     "clear_frac": 0.992,
-     "clear_frac_scl": 0.995,
+     "datetime": "2026-10-29T16:10:33.379000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
-     "scene_cloud_pct": 25.061351,
+     "scene_cloud_pct": 39.9189,
      "cloud_mask": "scl+cloudmask-1",
      "source": "baseline_backfill",
      "files": [
-      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+      "baseline_s2_20261029_S2C_18TVR_20261029_0_L2A_rgb.jpg"
      ]
     },
     {
-     "id": "S2C_18TVR_20261006_1_L2A",
+     "id": "S2B_18TVR_20260924_0_L2A",
      "tiles": [
-      "S2C_18TVR_20261006_1_L2A"
+      "S2B_18TVR_20260924_0_L2A"
      ],
-     "datetime": "2026-10-06T16:00:40.326000+00:00",
-     "clear_frac": 0.997,
+     "datetime": "2026-09-24T16:10:35.133000+00:00",
+     "clear_frac": 0.999,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
-     "scene_cloud_pct": 0.001358,
+     "scene_cloud_pct": 0.000534,
      "cloud_mask": "scl+cloudmask-1",
      "source": "baseline_backfill",
      "files": [
-      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
-     ]
-    },
-    {
-     "id": "S2C_18TVR_20260906_0_L2A",
-     "tiles": [
-      "S2C_18TVR_20260906_0_L2A"
-     ],
-     "datetime": "2026-09-06T16:00:36.524000+00:00",
-     "clear_frac": 0.997,
-     "clear_frac_scl": 1.0,
-     "valid_frac": 1.0,
-     "scene_cloud_pct": 5.4809,
-     "cloud_mask": "scl+cloudmask-1",
-     "source": "baseline_backfill",
-     "files": [
-      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+      "baseline_s2_20260924_S2B_18TVR_20260924_0_L2A_rgb.jpg"
      ]
     },
     {
@@ -2156,7 +2140,7 @@
       "S2B_18TVR_20260805_0_L2A"
      ],
      "datetime": "2026-08-05T16:10:35.433000+00:00",
-     "clear_frac": 0.999,
+     "clear_frac": 1.0,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 0.353051,
@@ -2165,14 +2149,30 @@
      "files": [
       "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
      ]
+    },
+    {
+     "id": "S2A_18TVR_20260623_1_L2A",
+     "tiles": [
+      "S2A_18TVR_20260623_1_L2A"
+     ],
+     "datetime": "2026-06-23T16:10:52.285000+00:00",
+     "clear_frac": 0.993,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 34.154385,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260623_S2A_18TVR_20260623_1_L2A_rgb.jpg"
+     ]
     }
    ],
-   "checked": "2026-11-09T07:09:26+00:00",
-   "candidates": 48,
-   "tried": 4,
+   "checked": "2026-11-09T08:39:43+00:00",
+   "candidates": 47,
+   "tried": 10,
    "best_seen": {
     "cover": 1.0,
-    "clear_scl": 0.995,
+    "clear_scl": 0.628,
     "date": "2026-11-08"
    },
    "errors": []
@@ -2182,10 +2182,10 @@
    "name": "Maj.-Gen. George R. Pearkes Building (legacy NDHQ)",
    "type": "government",
    "bbox": [
-    -75.69156,
-    45.418,
-    -75.68644,
-    45.4216
+    -75.69183,
+    45.42169,
+    -75.68671,
+    45.42529
    ],
    "passes": [],
    "baseline": null,
@@ -2196,7 +2196,7 @@
       "S2C_18TVR_20261108_0_L2A"
      ],
      "datetime": "2026-11-08T16:10:31.911000+00:00",
-     "clear_frac": 0.98,
+     "clear_frac": 0.922,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 25.061351,
@@ -2212,7 +2212,7 @@
       "S2C_18TVR_20261006_1_L2A"
      ],
      "datetime": "2026-10-06T16:00:40.326000+00:00",
-     "clear_frac": 0.969,
+     "clear_frac": 0.922,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 0.001358,
@@ -2228,7 +2228,7 @@
       "S2C_18TVR_20260906_0_L2A"
      ],
      "datetime": "2026-09-06T16:00:36.524000+00:00",
-     "clear_frac": 0.971,
+     "clear_frac": 0.927,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 5.4809,
@@ -2244,7 +2244,7 @@
       "S2B_18TVR_20260805_0_L2A"
      ],
      "datetime": "2026-08-05T16:10:35.433000+00:00",
-     "clear_frac": 0.976,
+     "clear_frac": 0.984,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 0.353051,
@@ -2255,7 +2255,7 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:09:32+00:00",
+   "checked": "2026-11-09T08:39:49+00:00",
    "candidates": 48,
    "tried": 4,
    "best_seen": {
@@ -2446,10 +2446,10 @@
    "name": "Environment and Climate Change Canada, Place Vincent Massey",
    "type": "government",
    "bbox": [
-    -75.73784,
-    45.43631,
-    -75.73016,
-    45.44169
+    -75.73702,
+    45.4401,
+    -75.72934,
+    45.44548
    ],
    "passes": [],
    "baseline": null,
@@ -2460,7 +2460,7 @@
       "S2C_18TVR_20261108_0_L2A"
      ],
      "datetime": "2026-11-08T16:10:31.911000+00:00",
-     "clear_frac": 1.0,
+     "clear_frac": 0.993,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 25.061351,
@@ -2476,7 +2476,7 @@
       "S2C_18TVR_20261006_1_L2A"
      ],
      "datetime": "2026-10-06T16:00:40.326000+00:00",
-     "clear_frac": 0.991,
+     "clear_frac": 0.993,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 0.001358,
@@ -2508,7 +2508,7 @@
       "S2C_18TVR_20260731_0_L2A"
      ],
      "datetime": "2026-07-31T16:10:37.044000+00:00",
-     "clear_frac": 0.988,
+     "clear_frac": 0.993,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 11.503602,
@@ -2519,7 +2519,7 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:10:47+00:00",
+   "checked": "2026-11-09T08:40:44+00:00",
    "candidates": 48,
    "tried": 5,
    "best_seen": {
@@ -2534,10 +2534,10 @@
    "name": "Elections Canada",
    "type": "government",
    "bbox": [
-    -75.71592,
-    45.42795,
-    -75.71208,
-    45.43065
+    -75.71631,
+    45.42707,
+    -75.71247,
+    45.42977
    ],
    "passes": [],
    "baseline": null,
@@ -2564,7 +2564,7 @@
       "S2C_18TVR_20261006_1_L2A"
      ],
      "datetime": "2026-10-06T16:00:40.326000+00:00",
-     "clear_frac": 0.972,
+     "clear_frac": 1.0,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 0.001358,
@@ -2580,7 +2580,7 @@
       "S2C_18TVR_20260906_0_L2A"
      ],
      "datetime": "2026-09-06T16:00:36.524000+00:00",
-     "clear_frac": 0.972,
+     "clear_frac": 1.0,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 5.4809,
@@ -2607,7 +2607,7 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:13:17+00:00",
+   "checked": "2026-11-09T08:42:10+00:00",
    "candidates": 48,
    "tried": 4,
    "best_seen": {
@@ -2622,10 +2622,10 @@
    "name": "Employment and Social Development Canada, Place du Portage Phase IV",
    "type": "government",
    "bbox": [
-    -75.72272,
-    45.42505,
-    -75.71888,
-    45.42775
+    -75.71771,
+    45.42418,
+    -75.71387,
+    45.42688
    ],
    "passes": [],
    "baseline": null,
@@ -2652,7 +2652,7 @@
       "S2C_18TVR_20261006_1_L2A"
      ],
      "datetime": "2026-10-06T16:00:40.326000+00:00",
-     "clear_frac": 0.933,
+     "clear_frac": 0.972,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 0.001358,
@@ -2668,7 +2668,7 @@
       "S2C_18TVR_20260906_0_L2A"
      ],
      "datetime": "2026-09-06T16:00:36.524000+00:00",
-     "clear_frac": 0.921,
+     "clear_frac": 0.96,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 5.4809,
@@ -2684,7 +2684,7 @@
       "S2B_18TVR_20260805_0_L2A"
      ],
      "datetime": "2026-08-05T16:10:35.433000+00:00",
-     "clear_frac": 0.946,
+     "clear_frac": 0.96,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 0.353051,
@@ -2695,7 +2695,7 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:10:23+00:00",
+   "checked": "2026-11-09T08:40:17+00:00",
    "candidates": 48,
    "tried": 4,
    "best_seen": {
@@ -2710,10 +2710,10 @@
    "name": "Department of Finance, James Michael Flaherty Building",
    "type": "government",
    "bbox": [
-    -75.69752,
-    45.41895,
-    -75.69368,
-    45.42165
+    -75.69672,
+    45.42055,
+    -75.69288,
+    45.42324
    ],
    "passes": [],
    "baseline": null,
@@ -2740,7 +2740,7 @@
       "S2C_18TVR_20261006_1_L2A"
      ],
      "datetime": "2026-10-06T16:00:40.326000+00:00",
-     "clear_frac": 0.972,
+     "clear_frac": 0.964,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 0.001358,
@@ -2756,7 +2756,7 @@
       "S2C_18TVR_20260906_0_L2A"
      ],
      "datetime": "2026-09-06T16:00:36.524000+00:00",
-     "clear_frac": 0.949,
+     "clear_frac": 0.96,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 5.4809,
@@ -2772,7 +2772,7 @@
       "S2B_18TVR_20260805_0_L2A"
      ],
      "datetime": "2026-08-05T16:10:35.433000+00:00",
-     "clear_frac": 0.973,
+     "clear_frac": 0.96,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 0.353051,
@@ -2783,7 +2783,7 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:09:49+00:00",
+   "checked": "2026-11-09T08:39:57+00:00",
    "candidates": 48,
    "tried": 4,
    "best_seen": {
@@ -2798,10 +2798,10 @@
    "name": "FINTRAC",
    "type": "government",
    "bbox": [
-    -75.70312,
-    45.41675,
-    -75.69928,
-    45.41945
+    -75.69829,
+    45.41786,
+    -75.69445,
+    45.42056
    ],
    "passes": [],
    "baseline": null,
@@ -2844,7 +2844,7 @@
       "S2C_18TVR_20260906_0_L2A"
      ],
      "datetime": "2026-09-06T16:00:36.524000+00:00",
-     "clear_frac": 0.941,
+     "clear_frac": 0.972,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 5.4809,
@@ -2871,7 +2871,7 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:12:39+00:00",
+   "checked": "2026-11-09T08:41:51+00:00",
    "candidates": 48,
    "tried": 4,
    "best_seen": {
@@ -2886,10 +2886,10 @@
    "name": "Global Affairs Canada, Lester B. Pearson Building",
    "type": "government",
    "bbox": [
-    -75.6942,
-    45.43325,
-    -75.6878,
-    45.43775
+    -75.69916,
+    45.43488,
+    -75.69276,
+    45.43938
    ],
    "passes": [],
    "baseline": null,
@@ -2916,7 +2916,7 @@
       "S2C_18TVR_20261006_1_L2A"
      ],
      "datetime": "2026-10-06T16:00:40.326000+00:00",
-     "clear_frac": 1.0,
+     "clear_frac": 0.99,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 0.001358,
@@ -2932,7 +2932,7 @@
       "S2C_18TVR_20260906_0_L2A"
      ],
      "datetime": "2026-09-06T16:00:36.524000+00:00",
-     "clear_frac": 1.0,
+     "clear_frac": 0.98,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 5.4809,
@@ -2948,7 +2948,7 @@
       "S2B_18TVR_20260805_0_L2A"
      ],
      "datetime": "2026-08-05T16:10:35.433000+00:00",
-     "clear_frac": 1.0,
+     "clear_frac": 0.98,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 0.353051,
@@ -2959,7 +2959,7 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:09:43+00:00",
+   "checked": "2026-11-09T08:39:53+00:00",
    "candidates": 48,
    "tried": 4,
    "best_seen": {
@@ -3062,10 +3062,10 @@
    "name": "Health Canada, Brooke Claxton Building (Tunney's Pasture)",
    "type": "government",
    "bbox": [
-    -75.73672,
-    45.40145,
-    -75.73288,
-    45.40415
+    -75.73928,
+    45.40742,
+    -75.73544,
+    45.41012
    ],
    "passes": [],
    "baseline": null,
@@ -3135,7 +3135,7 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:10:12+00:00",
+   "checked": "2026-11-09T08:40:08+00:00",
    "candidates": 48,
    "tried": 4,
    "best_seen": {
@@ -3150,10 +3150,10 @@
    "name": "Housing, Infrastructure and Communities Canada",
    "type": "government",
    "bbox": [
-    -75.70502,
-    45.41665,
-    -75.70118,
-    45.41935
+    -75.70371,
+    45.4165,
+    -75.69987,
+    45.4192
    ],
    "passes": [],
    "baseline": null,
@@ -3223,7 +3223,7 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:11:24+00:00",
+   "checked": "2026-11-09T08:41:03+00:00",
    "candidates": 48,
    "tried": 4,
    "best_seen": {
@@ -3238,10 +3238,10 @@
    "name": "Immigration, Refugees and Citizenship Canada, Jean Edmonds Tower South",
    "type": "government",
    "bbox": [
-    -75.70892,
-    45.41545,
-    -75.70508,
-    45.41815
+    -75.70285,
+    45.41666,
+    -75.69901,
+    45.41936
    ],
    "passes": [],
    "baseline": null,
@@ -3284,7 +3284,7 @@
       "S2C_18TVR_20260906_0_L2A"
      ],
      "datetime": "2026-09-06T16:00:36.524000+00:00",
-     "clear_frac": 1.0,
+     "clear_frac": 0.956,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 5.4809,
@@ -3300,7 +3300,7 @@
       "S2B_18TVR_20260805_0_L2A"
      ],
      "datetime": "2026-08-05T16:10:35.433000+00:00",
-     "clear_frac": 1.0,
+     "clear_frac": 0.973,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 0.353051,
@@ -3311,7 +3311,7 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:10:28+00:00",
+   "checked": "2026-11-09T08:40:32+00:00",
    "candidates": 48,
    "tried": 4,
    "best_seen": {
@@ -3414,10 +3414,10 @@
    "name": "Department of Justice, East Memorial Building",
    "type": "government",
    "bbox": [
-    -75.70802,
-    45.41975,
-    -75.70418,
-    45.42245
+    -75.70691,
+    45.41862,
+    -75.70307,
+    45.42132
    ],
    "passes": [],
    "baseline": null,
@@ -3487,7 +3487,7 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:09:59+00:00",
+   "checked": "2026-11-09T08:40:05+00:00",
    "candidates": 48,
    "tried": 4,
    "best_seen": {
@@ -3502,10 +3502,10 @@
    "name": "Library and Archives Canada",
    "type": "government",
    "bbox": [
-    -75.71286,
-    45.4158,
-    -75.70774,
-    45.4194
+    -75.71075,
+    45.41801,
+    -75.70562,
+    45.42161
    ],
    "passes": [],
    "baseline": null,
@@ -3516,7 +3516,7 @@
       "S2C_18TVR_20261108_0_L2A"
      ],
      "datetime": "2026-11-08T16:10:31.911000+00:00",
-     "clear_frac": 0.984,
+     "clear_frac": 1.0,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 25.061351,
@@ -3532,7 +3532,7 @@
       "S2C_18TVR_20261006_1_L2A"
      ],
      "datetime": "2026-10-06T16:00:40.326000+00:00",
-     "clear_frac": 0.984,
+     "clear_frac": 1.0,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 0.001358,
@@ -3548,7 +3548,7 @@
       "S2C_18TVR_20260906_0_L2A"
      ],
      "datetime": "2026-09-06T16:00:36.524000+00:00",
-     "clear_frac": 0.985,
+     "clear_frac": 1.0,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 5.4809,
@@ -3564,7 +3564,7 @@
       "S2B_18TVR_20260805_0_L2A"
      ],
      "datetime": "2026-08-05T16:10:35.433000+00:00",
-     "clear_frac": 0.984,
+     "clear_frac": 1.0,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 0.353051,
@@ -3575,7 +3575,7 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:13:22+00:00",
+   "checked": "2026-11-09T08:42:21+00:00",
    "candidates": 48,
    "tried": 4,
    "best_seen": {
@@ -3590,10 +3590,10 @@
    "name": "Natural Resources Canada",
    "type": "government",
    "bbox": [
-    -75.71246,
-    45.4044,
-    -75.70734,
-    45.408
+    -75.70845,
+    45.3981,
+    -75.70333,
+    45.4017
    ],
    "passes": [],
    "baseline": null,
@@ -3663,7 +3663,7 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:10:39+00:00",
+   "checked": "2026-11-09T08:40:37+00:00",
    "candidates": 48,
    "tried": 4,
    "best_seen": {
@@ -3766,10 +3766,10 @@
    "name": "Office of the Prime Minister and Privy Council (former Langevin Block)",
    "type": "government",
    "bbox": [
-    -75.69842,
-    45.42155,
-    -75.69458,
-    45.42425
+    -75.69967,
+    45.42235,
+    -75.69583,
+    45.42506
    ],
    "passes": [],
    "baseline": null,
@@ -3796,7 +3796,7 @@
       "S2C_18TVR_20261006_1_L2A"
      ],
      "datetime": "2026-10-06T16:00:40.326000+00:00",
-     "clear_frac": 0.971,
+     "clear_frac": 1.0,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 0.001358,
@@ -3812,7 +3812,7 @@
       "S2C_18TVR_20260906_0_L2A"
      ],
      "datetime": "2026-09-06T16:00:36.524000+00:00",
-     "clear_frac": 0.967,
+     "clear_frac": 1.0,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 5.4809,
@@ -3828,7 +3828,7 @@
       "S2B_18TVR_20260805_0_L2A"
      ],
      "datetime": "2026-08-05T16:10:35.433000+00:00",
-     "clear_frac": 0.969,
+     "clear_frac": 1.0,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 0.353051,
@@ -3839,7 +3839,7 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:08:50+00:00",
+   "checked": "2026-11-09T08:39:29+00:00",
    "candidates": 48,
    "tried": 4,
    "best_seen": {
@@ -3854,10 +3854,10 @@
    "name": "Office of the Information Commissioner",
    "type": "government",
    "bbox": [
-    -75.71592,
-    45.42795,
-    -75.71208,
-    45.43065
+    -75.71631,
+    45.42707,
+    -75.71247,
+    45.42977
    ],
    "passes": [],
    "baseline": null,
@@ -3884,7 +3884,7 @@
       "S2C_18TVR_20261006_1_L2A"
      ],
      "datetime": "2026-10-06T16:00:40.326000+00:00",
-     "clear_frac": 0.972,
+     "clear_frac": 1.0,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 0.001358,
@@ -3900,7 +3900,7 @@
       "S2C_18TVR_20260906_0_L2A"
      ],
      "datetime": "2026-09-06T16:00:36.524000+00:00",
-     "clear_frac": 0.972,
+     "clear_frac": 1.0,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 5.4809,
@@ -3927,7 +3927,7 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:13:36+00:00",
+   "checked": "2026-11-09T08:42:14+00:00",
    "candidates": 48,
    "tried": 4,
    "best_seen": {
@@ -3942,10 +3942,10 @@
    "name": "Office of the Privacy Commissioner",
    "type": "government",
    "bbox": [
-    -75.71592,
-    45.42795,
-    -75.71208,
-    45.43065
+    -75.71631,
+    45.42707,
+    -75.71247,
+    45.42977
    ],
    "passes": [],
    "baseline": null,
@@ -3972,7 +3972,7 @@
       "S2C_18TVR_20261006_1_L2A"
      ],
      "datetime": "2026-10-06T16:00:40.326000+00:00",
-     "clear_frac": 0.972,
+     "clear_frac": 1.0,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 0.001358,
@@ -3988,7 +3988,7 @@
       "S2C_18TVR_20260906_0_L2A"
      ],
      "datetime": "2026-09-06T16:00:36.524000+00:00",
-     "clear_frac": 0.972,
+     "clear_frac": 1.0,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 5.4809,
@@ -4015,7 +4015,7 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:13:47+00:00",
+   "checked": "2026-11-09T08:42:17+00:00",
    "candidates": 48,
    "tried": 4,
    "best_seen": {
@@ -4030,10 +4030,10 @@
    "name": "Parole Board of Canada",
    "type": "government",
    "bbox": [
-    -75.71072,
-    45.41475,
-    -75.70688,
-    45.41745
+    -75.70413,
+    45.41547,
+    -75.70029,
+    45.41817
    ],
    "passes": [],
    "baseline": null,
@@ -4044,7 +4044,7 @@
       "S2C_18TVR_20261108_0_L2A"
      ],
      "datetime": "2026-11-08T16:10:31.911000+00:00",
-     "clear_frac": 0.972,
+     "clear_frac": 1.0,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 25.061351,
@@ -4060,7 +4060,7 @@
       "S2C_18TVR_20261006_1_L2A"
      ],
      "datetime": "2026-10-06T16:00:40.326000+00:00",
-     "clear_frac": 0.972,
+     "clear_frac": 1.0,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 0.001358,
@@ -4076,7 +4076,7 @@
       "S2C_18TVR_20260906_0_L2A"
      ],
      "datetime": "2026-09-06T16:00:36.524000+00:00",
-     "clear_frac": 0.964,
+     "clear_frac": 0.94,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 5.4809,
@@ -4092,7 +4092,7 @@
       "S2B_18TVR_20260805_0_L2A"
      ],
      "datetime": "2026-08-05T16:10:35.433000+00:00",
-     "clear_frac": 0.938,
+     "clear_frac": 0.972,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 0.353051,
@@ -4103,7 +4103,7 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:12:54+00:00",
+   "checked": "2026-11-09T08:41:58+00:00",
    "candidates": 48,
    "tried": 4,
    "best_seen": {
@@ -4118,10 +4118,10 @@
    "name": "Public Health Agency of Canada",
    "type": "government",
    "bbox": [
-    -75.73256,
-    45.3397,
-    -75.72744,
-    45.3433
+    -75.70857,
+    45.34322,
+    -75.70345,
+    45.34682
    ],
    "passes": [],
    "baseline": null,
@@ -4191,7 +4191,7 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:10:18+00:00",
+   "checked": "2026-11-09T08:40:13+00:00",
    "candidates": 48,
    "tried": 4,
    "best_seen": {
@@ -4206,10 +4206,10 @@
    "name": "Public Services and Procurement Canada, Place du Portage Phase III",
    "type": "government",
    "bbox": [
-    -75.72072,
-    45.42575,
-    -75.71688,
-    45.42845
+    -75.71559,
+    45.42415,
+    -75.71175,
+    45.42685
    ],
    "passes": [],
    "baseline": null,
@@ -4236,7 +4236,7 @@
       "S2C_18TVR_20261006_1_L2A"
      ],
      "datetime": "2026-10-06T16:00:40.326000+00:00",
-     "clear_frac": 0.9,
+     "clear_frac": 0.917,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 0.001358,
@@ -4252,7 +4252,7 @@
       "S2C_18TVR_20260906_0_L2A"
      ],
      "datetime": "2026-09-06T16:00:36.524000+00:00",
-     "clear_frac": 0.907,
+     "clear_frac": 0.886,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 5.4809,
@@ -4268,7 +4268,7 @@
       "S2B_18TVR_20260805_0_L2A"
      ],
      "datetime": "2026-08-05T16:10:35.433000+00:00",
-     "clear_frac": 0.918,
+     "clear_frac": 0.928,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 0.353051,
@@ -4279,7 +4279,7 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:11:19+00:00",
+   "checked": "2026-11-09T08:40:25+00:00",
    "candidates": 48,
    "tried": 4,
    "best_seen": {
@@ -4294,10 +4294,10 @@
    "name": "Public Safety Canada",
    "type": "government",
    "bbox": [
-    -75.70492,
-    45.41645,
-    -75.70108,
-    45.41915
+    -75.70043,
+    45.41777,
+    -75.69659,
+    45.42047
    ],
    "passes": [],
    "baseline": null,
@@ -4340,7 +4340,7 @@
       "S2C_18TVR_20260906_0_L2A"
      ],
      "datetime": "2026-09-06T16:00:36.524000+00:00",
-     "clear_frac": 1.0,
+     "clear_frac": 0.972,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 5.4809,
@@ -4356,7 +4356,7 @@
       "S2B_18TVR_20260805_0_L2A"
      ],
      "datetime": "2026-08-05T16:10:35.433000+00:00",
-     "clear_frac": 1.0,
+     "clear_frac": 0.972,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 0.353051,
@@ -4367,7 +4367,7 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:12:25+00:00",
+   "checked": "2026-11-09T08:41:44+00:00",
    "candidates": 48,
    "tried": 4,
    "best_seen": {
@@ -4382,10 +4382,10 @@
    "name": "RCMP National Headquarters",
    "type": "government",
    "bbox": [
-    -75.70889,
-    45.29615,
-    -75.70251,
-    45.30065
+    -75.70733,
+    45.29348,
+    -75.70095,
+    45.29798
    ],
    "passes": [],
    "baseline": null,
@@ -4396,8 +4396,8 @@
       "S2C_18TVR_20261108_0_L2A"
      ],
      "datetime": "2026-11-08T16:10:31.911000+00:00",
-     "clear_frac": 0.961,
-     "clear_frac_scl": 0.961,
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 25.061351,
      "cloud_mask": "scl+cloudmask-1",
@@ -4455,12 +4455,12 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:12:19+00:00",
+   "checked": "2026-11-09T08:41:36+00:00",
    "candidates": 48,
    "tried": 4,
    "best_seen": {
     "cover": 1.0,
-    "clear_scl": 0.961,
+    "clear_scl": 1.0,
     "date": "2026-11-08"
    },
    "errors": []
@@ -4646,85 +4646,85 @@
    "name": "Embassy of Russia",
    "type": "diplomatic",
    "bbox": [
-    -75.68166,
-    45.4287,
-    -75.67654,
-    45.4323
+    -75.67562,
+    45.42806,
+    -75.6705,
+    45.43166
    ],
    "passes": [],
    "baseline": null,
    "baselines": [
     {
-     "id": "S2C_18TVR_20261108_0_L2A",
+     "id": "S2C_18TVR_20261029_0_L2A",
      "tiles": [
-      "S2C_18TVR_20261108_0_L2A"
+      "S2C_18TVR_20261029_0_L2A"
      ],
-     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "datetime": "2026-10-29T16:10:33.379000+00:00",
      "clear_frac": 1.0,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
-     "scene_cloud_pct": 25.061351,
+     "scene_cloud_pct": 39.9189,
      "cloud_mask": "scl+cloudmask-1",
      "source": "baseline_backfill",
      "files": [
-      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+      "baseline_s2_20261029_S2C_18TVR_20261029_0_L2A_rgb.jpg"
      ]
     },
     {
-     "id": "S2C_18TVR_20261006_1_L2A",
+     "id": "S2B_18TVR_20260924_0_L2A",
      "tiles": [
-      "S2C_18TVR_20261006_1_L2A"
+      "S2B_18TVR_20260924_0_L2A"
      ],
-     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "datetime": "2026-09-24T16:10:35.133000+00:00",
      "clear_frac": 1.0,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
-     "scene_cloud_pct": 0.001358,
+     "scene_cloud_pct": 0.000534,
      "cloud_mask": "scl+cloudmask-1",
      "source": "baseline_backfill",
      "files": [
-      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+      "baseline_s2_20260924_S2B_18TVR_20260924_0_L2A_rgb.jpg"
      ]
     },
     {
-     "id": "S2C_18TVR_20260906_0_L2A",
+     "id": "S2B_18TVR_20260822_0_L2A",
      "tiles": [
-      "S2C_18TVR_20260906_0_L2A"
+      "S2B_18TVR_20260822_0_L2A"
      ],
-     "datetime": "2026-09-06T16:00:36.524000+00:00",
-     "clear_frac": 1.0,
-     "clear_frac_scl": 1.0,
+     "datetime": "2026-08-22T16:00:35.134000+00:00",
+     "clear_frac": 0.999,
+     "clear_frac_scl": 0.999,
      "valid_frac": 1.0,
-     "scene_cloud_pct": 5.4809,
+     "scene_cloud_pct": 19.845429,
      "cloud_mask": "scl+cloudmask-1",
      "source": "baseline_backfill",
      "files": [
-      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+      "baseline_s2_20260822_S2B_18TVR_20260822_0_L2A_rgb.jpg"
      ]
     },
     {
-     "id": "S2B_18TVR_20260805_0_L2A",
+     "id": "S2B_18TVR_20260716_0_L2A",
      "tiles": [
-      "S2B_18TVR_20260805_0_L2A"
+      "S2B_18TVR_20260716_0_L2A"
      ],
-     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "datetime": "2026-07-16T16:10:35.729000+00:00",
      "clear_frac": 1.0,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
-     "scene_cloud_pct": 0.353051,
+     "scene_cloud_pct": 33.034825,
      "cloud_mask": "scl+cloudmask-1",
      "source": "baseline_backfill",
      "files": [
-      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+      "baseline_s2_20260716_S2B_18TVR_20260716_0_L2A_rgb.jpg"
      ]
     }
    ],
-   "checked": "2026-11-09T07:14:34+00:00",
+   "checked": "2026-11-09T08:42:51+00:00",
    "candidates": 48,
-   "tried": 4,
+   "tried": 8,
    "best_seen": {
     "cover": 1.0,
-    "clear_scl": 1.0,
+    "clear_scl": 0.586,
     "date": "2026-11-08"
    },
    "errors": []
@@ -4734,10 +4734,10 @@
    "name": "Senate of Canada Building (former Government Conference Centre)",
    "type": "government",
    "bbox": [
-    -75.69492,
-    45.42395,
-    -75.69108,
-    45.42665
+    -75.69549,
+    45.42324,
+    -75.69165,
+    45.42594
    ],
    "passes": [],
    "baseline": null,
@@ -4748,7 +4748,7 @@
       "S2C_18TVR_20261108_0_L2A"
      ],
      "datetime": "2026-11-08T16:10:31.911000+00:00",
-     "clear_frac": 0.864,
+     "clear_frac": 0.942,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 25.061351,
@@ -4764,7 +4764,7 @@
       "S2C_18TVR_20261006_1_L2A"
      ],
      "datetime": "2026-10-06T16:00:40.326000+00:00",
-     "clear_frac": 0.871,
+     "clear_frac": 0.92,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 0.001358,
@@ -4780,7 +4780,7 @@
       "S2C_18TVR_20260906_0_L2A"
      ],
      "datetime": "2026-09-06T16:00:36.524000+00:00",
-     "clear_frac": 0.892,
+     "clear_frac": 0.977,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 5.4809,
@@ -4796,7 +4796,7 @@
       "S2B_18TVR_20260805_0_L2A"
      ],
      "datetime": "2026-08-05T16:10:35.433000+00:00",
-     "clear_frac": 0.973,
+     "clear_frac": 1.0,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 0.353051,
@@ -4807,7 +4807,7 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:08:43+00:00",
+   "checked": "2026-11-09T08:39:23+00:00",
    "candidates": 48,
    "tried": 4,
    "best_seen": {
@@ -4822,10 +4822,10 @@
    "name": "Shared Services Canada",
    "type": "government",
    "bbox": [
-    -75.69932,
-    45.41945,
-    -75.69548,
-    45.42215
+    -75.69723,
+    45.41948,
+    -75.69339,
+    45.42218
    ],
    "passes": [],
    "baseline": null,
@@ -4852,7 +4852,7 @@
       "S2C_18TVR_20261006_1_L2A"
      ],
      "datetime": "2026-10-06T16:00:40.326000+00:00",
-     "clear_frac": 1.0,
+     "clear_frac": 0.937,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 0.001358,
@@ -4868,7 +4868,7 @@
       "S2C_18TVR_20260906_0_L2A"
      ],
      "datetime": "2026-09-06T16:00:36.524000+00:00",
-     "clear_frac": 0.972,
+     "clear_frac": 0.932,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 5.4809,
@@ -4884,7 +4884,7 @@
       "S2B_18TVR_20260805_0_L2A"
      ],
      "datetime": "2026-08-05T16:10:35.433000+00:00",
-     "clear_frac": 0.972,
+     "clear_frac": 0.96,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 0.353051,
@@ -4895,7 +4895,7 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:13:32+00:00",
+   "checked": "2026-11-09T08:42:25+00:00",
    "candidates": 48,
    "tried": 4,
    "best_seen": {
@@ -4910,10 +4910,10 @@
    "name": "Statistics Canada (Main Building / R.H. Coats, Tunney's Pasture)",
    "type": "government",
    "bbox": [
-    -75.73306,
-    45.4007,
-    -75.72794,
-    45.4043
+    -75.73666,
+    45.40301,
+    -75.73154,
+    45.40661
    ],
    "passes": [],
    "baseline": null,
@@ -4983,7 +4983,7 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:13:07+00:00",
+   "checked": "2026-11-09T08:42:08+00:00",
    "candidates": 48,
    "tried": 4,
    "best_seen": {
@@ -5086,10 +5086,10 @@
    "name": "Supreme Court of Canada (interim, West Memorial Building)",
    "type": "government",
    "bbox": [
-    -75.71052,
-    45.41905,
-    -75.70668,
-    45.42175
+    -75.70817,
+    45.41793,
+    -75.70434,
+    45.42063
    ],
    "passes": [],
    "baseline": null,
@@ -5159,7 +5159,7 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:09:19+00:00",
+   "checked": "2026-11-09T08:39:34+00:00",
    "candidates": 48,
    "tried": 4,
    "best_seen": {
@@ -5174,10 +5174,10 @@
    "name": "Treasury Board of Canada Secretariat",
    "type": "government",
    "bbox": [
-    -75.69752,
-    45.41895,
-    -75.69368,
-    45.42165
+    -75.69672,
+    45.42055,
+    -75.69288,
+    45.42324
    ],
    "passes": [],
    "baseline": null,
@@ -5204,7 +5204,7 @@
       "S2C_18TVR_20261006_1_L2A"
      ],
      "datetime": "2026-10-06T16:00:40.326000+00:00",
-     "clear_frac": 0.972,
+     "clear_frac": 0.964,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 0.001358,
@@ -5220,7 +5220,7 @@
       "S2C_18TVR_20260906_0_L2A"
      ],
      "datetime": "2026-09-06T16:00:36.524000+00:00",
-     "clear_frac": 0.949,
+     "clear_frac": 0.96,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 5.4809,
@@ -5236,7 +5236,7 @@
       "S2B_18TVR_20260805_0_L2A"
      ],
      "datetime": "2026-08-05T16:10:35.433000+00:00",
-     "clear_frac": 0.973,
+     "clear_frac": 0.96,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 0.353051,
@@ -5247,7 +5247,7 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:09:54+00:00",
+   "checked": "2026-11-09T08:40:01+00:00",
    "candidates": 48,
    "tried": 4,
    "best_seen": {
@@ -5350,10 +5350,10 @@
    "name": "British High Commission",
    "type": "diplomatic",
    "bbox": [
-    -75.69632,
-    45.42055,
-    -75.69248,
-    45.42325
+    -75.70051,
+    45.43559,
+    -75.69667,
+    45.43829
    ],
    "passes": [],
    "baseline": null,
@@ -5380,7 +5380,7 @@
       "S2C_18TVR_20261006_1_L2A"
      ],
      "datetime": "2026-10-06T16:00:40.326000+00:00",
-     "clear_frac": 0.964,
+     "clear_frac": 0.972,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 0.001358,
@@ -5396,7 +5396,7 @@
       "S2C_18TVR_20260906_0_L2A"
      ],
      "datetime": "2026-09-06T16:00:36.524000+00:00",
-     "clear_frac": 0.96,
+     "clear_frac": 0.946,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 5.4809,
@@ -5412,7 +5412,7 @@
       "S2B_18TVR_20260805_0_L2A"
      ],
      "datetime": "2026-08-05T16:10:35.433000+00:00",
-     "clear_frac": 0.96,
+     "clear_frac": 0.944,
      "clear_frac_scl": 1.0,
      "valid_frac": 1.0,
      "scene_cloud_pct": 0.353051,
@@ -5423,7 +5423,7 @@
      ]
     }
    ],
-   "checked": "2026-11-09T07:14:17+00:00",
+   "checked": "2026-11-09T08:42:37+00:00",
    "candidates": 48,
    "tried": 4,
    "best_seen": {

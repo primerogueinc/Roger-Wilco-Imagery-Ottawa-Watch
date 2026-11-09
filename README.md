@@ -76,6 +76,7 @@ This repository is the public record of the Watch: its daily issues, and the cle
 | Ottawa downtown core (Parliament, Wellington, Sparks, Laurier) | `ott-downtown-core` | zone / campus | 4 | 2026-07-11 → 2026-10-29 | [place page](https://rogerwilcoimagery.com/place/ott-downtown-core.html) |
 | Gatineau federal district (Place du Portage, Terrasses de la Chaudière, 30 Victoria) | `ott-gatineau-core` | zone / campus | 4 | 2026-07-11 → 2026-10-29 | [place page](https://rogerwilcoimagery.com/place/ott-gatineau-core.html) |
 
+Every single-building box was checked against OpenStreetMap on 9 Nov 2026; 40 were recentred. See [POSITIONS.md](POSITIONS.md).
 Single buildings are small at Sentinel-2's 10 m pixel (about 30–40 pixels a side), but each has its own record; the zones and
 campuses give the wider view.
 
