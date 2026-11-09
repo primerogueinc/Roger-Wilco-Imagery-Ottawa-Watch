@@ -1,3 +1,5 @@
+[![Roger Wilco Imagery, by Prime Rogue Inc.](.github/roger-wilco-imagery-banner.png)](https://rogerwilcoimagery.com)
+
 # Roger Wilco Imagery — Ottawa Watch
 
 Open baseline satellite imagery for the **Ottawa Watch** of [Roger Wilco Imagery](https://rogerwilcoimagery.com) (RWI), a project of
@@ -113,5 +115,13 @@ All times are UTC.
 - **Imagery and index (RWI Materials):** see [LICENSE-IMAGERY.md](LICENSE-IMAGERY.md). Underlying data: Copernicus Sentinel, free to
   reuse with attribution. Please credit: **"Contains modified Copernicus Sentinel data 2026, processed by Roger Wilco Imagery."**
 - **Code** (if any is added here): MIT, see [LICENSE](LICENSE).
+
+## Prime Rogue
+
+Part of **Roger Wilco Imagery**, Prime Rogue Inc.'s satellite imagery archive.
+
+- [rogerwilcoimagery.com](https://rogerwilcoimagery.com)
+- [primerogueinc.com](https://primerogueinc.com)
+- [osintyyc.ca](https://osintyyc.ca)
 
 Updated by RWI when new baselines are made. Questions and corrections: via [rogerwilcoimagery.com](https://rogerwilcoimagery.com).
