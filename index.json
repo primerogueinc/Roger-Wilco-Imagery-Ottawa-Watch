@@ -5,10 +5,274 @@
   "code": "OTTAWA",
   "title": "Ottawa Watch"
  },
- "synced_utc": "2026-11-09T06:18:31Z",
- "source_generated": "2026-11-09T06:16:06+00:00",
+ "synced_utc": "2026-11-09T07:15:22Z",
+ "source_generated": "2026-11-09T07:14:34+00:00",
  "attribution": "Contains modified Copernicus Sentinel data 2026, processed by Roger Wilco Imagery",
  "sites": [
+  {
+   "id": "ott-24-sussex",
+   "name": "24 Sussex Drive (official PM residence)",
+   "type": "government",
+   "bbox": [
+    -75.69581,
+    45.44309,
+    -75.69197,
+    45.44579
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:08:56+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-aafc",
+   "name": "Agriculture and Agri-Food Canada (NHCAP, Central Experimental Farm)",
+   "type": "government",
+   "bbox": [
+    -75.7202,
+    45.36955,
+    -75.7138,
+    45.37405
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:11:04+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-bank-of-canada",
+   "name": "Bank of Canada",
+   "type": "government",
+   "bbox": [
+    -75.70492,
+    45.41995,
+    -75.70108,
+    45.42265
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:13:12+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
   {
    "id": "ott-campus-confederation-heights",
    "name": "Confederation Heights",
@@ -538,6 +802,1470 @@
    "errors": []
   },
   {
+   "id": "ott-canadian-heritage",
+   "name": "Canadian Heritage, Jules Leger Building (Terrasses de la Chaudiere)",
+   "type": "government",
+   "bbox": [
+    -75.72312,
+    45.42415,
+    -75.71928,
+    45.42685
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 0.94,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 0.931,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 0.95,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:11:14+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-cbsa-hq",
+   "name": "Canada Border Services Agency HQ",
+   "type": "government",
+   "bbox": [
+    -75.70052,
+    45.41725,
+    -75.69668,
+    45.41995
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:12:30+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-centre-block",
+   "name": "Centre Block (Parliament)",
+   "type": "government",
+   "bbox": [
+    -75.70256,
+    45.4227,
+    -75.69744,
+    45.4263
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 0.949,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 0.944,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 0.942,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 0.955,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:08:22+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-cfia",
+   "name": "Canadian Food Inspection Agency",
+   "type": "government",
+   "bbox": [
+    -75.7392,
+    45.35075,
+    -75.7328,
+    45.35525
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:13:00+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-china-embassy",
+   "name": "Embassy of China",
+   "type": "diplomatic",
+   "bbox": [
+    -75.68936,
+    45.4314,
+    -75.68424,
+    45.435
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:14:22+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-cirnac-isc",
+   "name": "Crown-Indigenous Relations / Indigenous Services Canada, Terrasses de la Chaudiere",
+   "type": "government",
+   "bbox": [
+    -75.72392,
+    45.42485,
+    -75.72008,
+    45.42755
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 0.947,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 0.934,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 0.957,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:11:09+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-cnsc",
+   "name": "Canadian Nuclear Safety Commission",
+   "type": "government",
+   "bbox": [
+    -75.70642,
+    45.41725,
+    -75.70258,
+    45.41995
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:14:07+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-coast-guard-hq",
+   "name": "Canadian Coast Guard HQ",
+   "type": "government",
+   "bbox": [
+    -75.70522,
+    45.41585,
+    -75.70138,
+    45.41855
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 0.933,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 0.972,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:12:45+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-competition-bureau",
+   "name": "Competition Bureau, Place du Portage Phase I",
+   "type": "government",
+   "bbox": [
+    -75.71872,
+    45.42745,
+    -75.71488,
+    45.43015
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:13:57+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-cra-connaught",
+   "name": "Canada Revenue Agency, Connaught Building",
+   "type": "government",
+   "bbox": [
+    -75.69664,
+    45.42504,
+    -75.6928,
+    45.42774
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 0.972,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:13:27+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-crtc",
+   "name": "CRTC, Terrasses de la Chaudiere (Central Building)",
+   "type": "government",
+   "bbox": [
+    -75.72192,
+    45.42385,
+    -75.71808,
+    45.42655
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 0.969,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 0.964,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 0.973,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:14:02+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-csc-nhq",
+   "name": "Correctional Service Canada NHQ",
+   "type": "government",
+   "bbox": [
+    -75.70752,
+    45.41565,
+    -75.70368,
+    45.41835
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:12:49+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-cse-edward-drake",
+   "name": "Communications Security Establishment, Edward Drake Building",
+   "type": "government",
+   "bbox": [
+    -75.6197,
+    45.43195,
+    -75.6133,
+    45.43645
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261029_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261029_0_L2A"
+     ],
+     "datetime": "2026-10-29T16:10:33.379000+00:00",
+     "clear_frac": 0.873,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 39.9189,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261029_S2C_18TVR_20261029_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260726_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260726_0_L2A"
+     ],
+     "datetime": "2026-07-26T16:10:36.389000+00:00",
+     "clear_frac": 0.866,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 27.035809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260726_S2B_18TVR_20260726_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:12:07+00:00",
+   "candidates": 48,
+   "tried": 20,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 0.976,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-csis-hq",
+   "name": "Canadian Security Intelligence Service HQ",
+   "type": "government",
+   "bbox": [
+    -75.61646,
+    45.4356,
+    -75.61134,
+    45.4392
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 0.952,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 0.922,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 0.922,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 0.932,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:12:13+00:00",
+   "candidates": 49,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-dfo",
+   "name": "Fisheries and Oceans Canada",
+   "type": "government",
+   "bbox": [
+    -75.70522,
+    45.41585,
+    -75.70138,
+    45.41855
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 0.933,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 0.972,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:10:57+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-dnd-ndhq-carling",
+   "name": "National Defence HQ, Carling campus",
+   "type": "government",
+   "bbox": [
+    -75.825,
+    45.342,
+    -75.805,
+    45.356
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 0.992,
+     "clear_frac_scl": 0.995,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 0.997,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 0.997,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 0.999,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:09:26+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 0.995,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-dnd-pearkes",
+   "name": "Maj.-Gen. George R. Pearkes Building (legacy NDHQ)",
+   "type": "government",
+   "bbox": [
+    -75.69156,
+    45.418,
+    -75.68644,
+    45.4216
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 0.98,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 0.969,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 0.971,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 0.976,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:09:32+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
    "id": "ott-downtown-core",
    "name": "Ottawa downtown core (Parliament, Wellington, Sparks, Laurier)",
    "type": "zone",
@@ -626,6 +2354,622 @@
    "errors": []
   },
   {
+   "id": "ott-east-block",
+   "name": "East Block",
+   "type": "government",
+   "bbox": [
+    -75.69937,
+    45.42336,
+    -75.69553,
+    45.42606
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 0.96,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 0.971,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 0.977,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:08:36+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-eccc",
+   "name": "Environment and Climate Change Canada, Place Vincent Massey",
+   "type": "government",
+   "bbox": [
+    -75.73784,
+    45.43631,
+    -75.73016,
+    45.44169
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 0.991,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260901_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260901_0_L2A"
+     ],
+     "datetime": "2026-09-01T16:00:36.012000+00:00",
+     "clear_frac": 0.988,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 2.323095,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260901_S2B_18TVR_20260901_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260731_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260731_0_L2A"
+     ],
+     "datetime": "2026-07-31T16:10:37.044000+00:00",
+     "clear_frac": 0.988,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 11.503602,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260731_S2C_18TVR_20260731_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:10:47+00:00",
+   "candidates": 48,
+   "tried": 5,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-elections-canada",
+   "name": "Elections Canada",
+   "type": "government",
+   "bbox": [
+    -75.71592,
+    45.42795,
+    -75.71208,
+    45.43065
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 0.972,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 0.972,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:13:17+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-esdc",
+   "name": "Employment and Social Development Canada, Place du Portage Phase IV",
+   "type": "government",
+   "bbox": [
+    -75.72272,
+    45.42505,
+    -75.71888,
+    45.42775
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 0.933,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 0.921,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 0.946,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:10:23+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-finance",
+   "name": "Department of Finance, James Michael Flaherty Building",
+   "type": "government",
+   "bbox": [
+    -75.69752,
+    45.41895,
+    -75.69368,
+    45.42165
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 0.972,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 0.949,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 0.973,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:09:49+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-fintrac",
+   "name": "FINTRAC",
+   "type": "government",
+   "bbox": [
+    -75.70312,
+    45.41675,
+    -75.69928,
+    45.41945
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 0.941,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 0.972,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:12:39+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-gac-pearson",
+   "name": "Global Affairs Canada, Lester B. Pearson Building",
+   "type": "government",
+   "bbox": [
+    -75.6942,
+    45.43325,
+    -75.6878,
+    45.43775
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:09:43+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
    "id": "ott-gatineau-core",
    "name": "Gatineau federal district (Place du Portage, Terrasses de la Chaudi\u00e8re, 30 Victoria)",
    "type": "zone",
@@ -710,6 +3054,2646 @@
     "cover": 1.0,
     "clear_scl": 1.0,
     "date": "2026-07-11"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-health-canada",
+   "name": "Health Canada, Brooke Claxton Building (Tunney's Pasture)",
+   "type": "government",
+   "bbox": [
+    -75.73672,
+    45.40145,
+    -75.73288,
+    45.40415
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:10:12+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-hicc",
+   "name": "Housing, Infrastructure and Communities Canada",
+   "type": "government",
+   "bbox": [
+    -75.70502,
+    45.41665,
+    -75.70118,
+    45.41935
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 0.94,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 0.972,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:11:24+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-ircc",
+   "name": "Immigration, Refugees and Citizenship Canada, Jean Edmonds Tower South",
+   "type": "government",
+   "bbox": [
+    -75.70892,
+    45.41545,
+    -75.70508,
+    45.41815
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:10:28+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-ised",
+   "name": "Innovation, Science and Economic Development, C.D. Howe Building",
+   "type": "government",
+   "bbox": [
+    -75.70414,
+    45.41865,
+    -75.7003,
+    45.42135
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:10:04+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-justice",
+   "name": "Department of Justice, East Memorial Building",
+   "type": "government",
+   "bbox": [
+    -75.70802,
+    45.41975,
+    -75.70418,
+    45.42245
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:09:59+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-lac",
+   "name": "Library and Archives Canada",
+   "type": "government",
+   "bbox": [
+    -75.71286,
+    45.4158,
+    -75.70774,
+    45.4194
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 0.984,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 0.984,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 0.985,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 0.984,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:13:22+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-nrcan",
+   "name": "Natural Resources Canada",
+   "type": "government",
+   "bbox": [
+    -75.71246,
+    45.4044,
+    -75.70734,
+    45.408
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:10:39+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-oag",
+   "name": "Office of the Auditor General",
+   "type": "government",
+   "bbox": [
+    -75.70414,
+    45.41865,
+    -75.7003,
+    45.42135
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:13:52+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-office-pm-pco",
+   "name": "Office of the Prime Minister and Privy Council (former Langevin Block)",
+   "type": "government",
+   "bbox": [
+    -75.69842,
+    45.42155,
+    -75.69458,
+    45.42425
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 0.971,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 0.967,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 0.969,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:08:50+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-oic",
+   "name": "Office of the Information Commissioner",
+   "type": "government",
+   "bbox": [
+    -75.71592,
+    45.42795,
+    -75.71208,
+    45.43065
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 0.972,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 0.972,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:13:36+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-opc",
+   "name": "Office of the Privacy Commissioner",
+   "type": "government",
+   "bbox": [
+    -75.71592,
+    45.42795,
+    -75.71208,
+    45.43065
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 0.972,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 0.972,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:13:47+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-parole-board",
+   "name": "Parole Board of Canada",
+   "type": "government",
+   "bbox": [
+    -75.71072,
+    45.41475,
+    -75.70688,
+    45.41745
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 0.972,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 0.972,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 0.964,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 0.938,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:12:54+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-phac",
+   "name": "Public Health Agency of Canada",
+   "type": "government",
+   "bbox": [
+    -75.73256,
+    45.3397,
+    -75.72744,
+    45.3433
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:10:18+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-pspc",
+   "name": "Public Services and Procurement Canada, Place du Portage Phase III",
+   "type": "government",
+   "bbox": [
+    -75.72072,
+    45.42575,
+    -75.71688,
+    45.42845
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 0.972,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 0.9,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 0.907,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 0.918,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:11:19+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-public-safety",
+   "name": "Public Safety Canada",
+   "type": "government",
+   "bbox": [
+    -75.70492,
+    45.41645,
+    -75.70108,
+    45.41915
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:12:25+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-rcmp-nhq",
+   "name": "RCMP National Headquarters",
+   "type": "government",
+   "bbox": [
+    -75.70889,
+    45.29615,
+    -75.70251,
+    45.30065
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 0.961,
+     "clear_frac_scl": 0.961,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:12:19+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 0.961,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-rideau-cottage",
+   "name": "Rideau Cottage (current PM residence)",
+   "type": "government",
+   "bbox": [
+    -75.68466,
+    45.44234,
+    -75.68082,
+    45.44504
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:09:02+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-rideau-hall",
+   "name": "Rideau Hall (Governor General)",
+   "type": "government",
+   "bbox": [
+    -75.68948,
+    45.44106,
+    -75.6818,
+    45.44644
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:09:08+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-russia-embassy",
+   "name": "Embassy of Russia",
+   "type": "diplomatic",
+   "bbox": [
+    -75.68166,
+    45.4287,
+    -75.67654,
+    45.4323
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:14:34+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-senate-of-canada-building",
+   "name": "Senate of Canada Building (former Government Conference Centre)",
+   "type": "government",
+   "bbox": [
+    -75.69492,
+    45.42395,
+    -75.69108,
+    45.42665
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 0.864,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 0.871,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 0.892,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 0.973,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:08:43+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-ssc",
+   "name": "Shared Services Canada",
+   "type": "government",
+   "bbox": [
+    -75.69932,
+    45.41945,
+    -75.69548,
+    45.42215
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 0.972,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 0.972,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:13:32+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-statcan",
+   "name": "Statistics Canada (Main Building / R.H. Coats, Tunney's Pasture)",
+   "type": "government",
+   "bbox": [
+    -75.73306,
+    45.4007,
+    -75.72794,
+    45.4043
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:13:07+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-supreme-court-building",
+   "name": "Supreme Court of Canada Building",
+   "type": "government",
+   "bbox": [
+    -75.7076,
+    45.4206,
+    -75.70376,
+    45.4233
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:09:14+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-supreme-court-interim",
+   "name": "Supreme Court of Canada (interim, West Memorial Building)",
+   "type": "government",
+   "bbox": [
+    -75.71052,
+    45.41905,
+    -75.70668,
+    45.42175
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:09:19+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-tbs",
+   "name": "Treasury Board of Canada Secretariat",
+   "type": "government",
+   "bbox": [
+    -75.69752,
+    45.41895,
+    -75.69368,
+    45.42165
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 0.972,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 0.949,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 0.973,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:09:54+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-transport",
+   "name": "Transport Canada, Place de Ville Tower C",
+   "type": "government",
+   "bbox": [
+    -75.70692,
+    45.41825,
+    -75.70308,
+    45.42095
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:10:33+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-uk-high-commission",
+   "name": "British High Commission",
+   "type": "diplomatic",
+   "bbox": [
+    -75.69632,
+    45.42055,
+    -75.69248,
+    45.42325
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 0.964,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 0.96,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 0.96,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:14:17+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-us-embassy",
+   "name": "Embassy of the United States",
+   "type": "diplomatic",
+   "bbox": [
+    -75.69779,
+    45.42651,
+    -75.69395,
+    45.42921
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:14:12+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-wage",
+   "name": "Women and Gender Equality Canada",
+   "type": "government",
+   "bbox": [
+    -75.72376,
+    45.4237,
+    -75.71864,
+    45.4273
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 0.963,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 0.956,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 0.969,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:11:29+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "ott-west-block",
+   "name": "West Block (House of Commons, interim chamber)",
+   "type": "government",
+   "bbox": [
+    -75.70242,
+    45.42185,
+    -75.69858,
+    45.42455
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_18TVR_20261108_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20261108_0_L2A"
+     ],
+     "datetime": "2026-11-08T16:10:31.911000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 25.061351,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261108_S2C_18TVR_20261108_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20261006_1_L2A",
+     "tiles": [
+      "S2C_18TVR_20261006_1_L2A"
+     ],
+     "datetime": "2026-10-06T16:00:40.326000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.001358,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20261006_S2C_18TVR_20261006_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_18TVR_20260906_0_L2A",
+     "tiles": [
+      "S2C_18TVR_20260906_0_L2A"
+     ],
+     "datetime": "2026-09-06T16:00:36.524000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.4809,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260906_S2C_18TVR_20260906_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_18TVR_20260805_0_L2A",
+     "tiles": [
+      "S2B_18TVR_20260805_0_L2A"
+     ],
+     "datetime": "2026-08-05T16:10:35.433000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.353051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260805_S2B_18TVR_20260805_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T07:08:30+00:00",
+   "candidates": 48,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-11-08"
    },
    "errors": []
   }
