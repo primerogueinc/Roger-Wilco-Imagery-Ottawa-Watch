@@ -6,6 +6,8 @@ This repository is the public record of the Watch: its daily issues, and the cle
 
 **Imagery:** 258 clear Sentinel-2 quicklooks: every one of the Watch's 65 places has its own, July–November 2026.
 
+Status: **tested and passed, 9 Nov 2026**. See [TESTS.md](TESTS.md).
+
 ## What is here
 
 | Place | Id | Kind | Images | Dates | On the site |
