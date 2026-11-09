@@ -1,0 +1,59 @@
+{
+ "id": "RWI-W-OTTAWA-2026-11-06",
+ "watch": "ottawa",
+ "title": "Ottawa Watch",
+ "date": "2026-11-06",
+ "flight_day": "2026-11-05",
+ "plates": [
+  {
+   "file": "flights.png",
+   "label": "Flights 2026-11-05"
+  }
+ ],
+ "notable": [],
+ "flights": {
+  "rcaf": 4
+ },
+ "heat": {
+  "source": "FIRMS area API (agent Gazda)",
+  "total": 0,
+  "on_sites": 0
+ },
+ "imagery": {
+  "ott-24-sussex": {
+   "pass": "2026-10-31T16:00:39.497000+00:00",
+   "clear": 0.93,
+   "new": false
+  },
+  "ott-rideau-hall": {
+   "pass": "2026-10-31T16:00:39.497000+00:00",
+   "clear": 0.94,
+   "new": false
+  },
+  "ott-campus-tunneys-pasture": {
+   "pass": "2026-10-29T16:10:33.379000+00:00",
+   "clear": 1.0,
+   "new": false
+  },
+  "ott-campus-confederation-heights": {
+   "pass": "2026-10-31T16:00:39.497000+00:00",
+   "clear": 0.78,
+   "new": false
+  },
+  "ott-campus-ogilvie-intel": {
+   "pass": "2026-10-29T16:10:33.379000+00:00",
+   "clear": 0.98,
+   "new": false
+  },
+  "ott-downtown-core": {
+   "pass": "2026-10-31T16:00:39.497000+00:00",
+   "clear": 0.94,
+   "new": false
+  },
+  "ott-gatineau-core": {
+   "pass": "2026-10-31T16:00:39.497000+00:00",
+   "clear": 0.83,
+   "new": false
+  }
+ }
+}

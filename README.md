@@ -1,8 +1,8 @@
-# Roger Wilco Imagery — Ottawa Watch (baseline imagery)
+# Roger Wilco Imagery — Ottawa Watch
 
 Open baseline satellite imagery for the **Ottawa Watch** of [Roger Wilco Imagery](https://rogerwilcoimagery.com) (RWI), a project of
 Prime Rogue Inc. RWI watches the main buildings of every Canadian federal entity in the National Capital Region from open sources.
-This repository is the public record of the clear-sky reference images that RWI compares new passes against.
+This repository is the public record of the Watch: its daily issues, and the clear-sky reference images that RWI compares new passes against.
 
 **Imagery:** 32 clear Sentinel-2 quicklooks across 8 places, July–October 2026.
 
@@ -25,6 +25,19 @@ rather than getting their own (a Sentinel-2 pixel is 10 m, too coarse for a buil
 - `baselines/<place>/baseline_s2_<date>_<scene>_rgb.jpg`: true-colour quicklook (Sentinel-2 L2A, bands 4-3-2).
 - `baselines/<place>/…_rgb.json`: georeference sidecar (CRS, bounds in that CRS, pixel size).
 - `index.json`: every image with its scene id, acquisition time (UTC), cloud and clear-sky fractions, and how it was cloud-masked.
+
+## Daily Watch issues
+
+`issues/<date>/` holds each daily Ottawa Watch issue, RWI-W-OTTAWA-<date>, from 1 Nov 2026:
+
+- `WATCH.md`: the issue. It covers military and government flights over the capital region for the day before (UTC), from
+  community ADS-B; heat detections (NASA FIRMS); and the newest clear Sentinel-2 pass per place.
+- `summary.json`: the same in machine-readable form.
+- `flights.png` and `S2_<place>.jpg`: the plates.
+- `issues/index.json`: every issue with its flight counts and notable lines.
+
+Flights come from aircraft that broadcast ADS-B and that volunteer receivers picked up. An aircraft that switches its transponder off
+or flies outside coverage is not here, so "none broadcasting" does not mean "none flew". Issues are LLM-generated and automated.
 
 ## How the images are made
 

@@ -1,0 +1,138 @@
+[
+ {
+  "id": "RWI-W-OTTAWA-2026-11-09",
+  "date": "2026-11-09",
+  "flight_day": "2026-11-08",
+  "flights": {
+   "foreign-military": 2,
+   "rcaf": 3,
+   "other": 3
+  },
+  "heat": {
+   "source": "FIRMS area API (agent Gazda)",
+   "total": 0,
+   "on_sites": 0
+  },
+  "notable": [
+   "2 foreign military aircraft in the area (Netherlands, United Kingdom); 2 only using Ottawa Macdonald-Cartier (CYOW)."
+  ]
+ },
+ {
+  "id": "RWI-W-OTTAWA-2026-11-08",
+  "date": "2026-11-08",
+  "flight_day": "2026-11-07",
+  "flights": {
+   "rcaf": 3,
+   "other": 1,
+   "us-military": 1
+  },
+  "heat": {
+   "source": "FIRMS area API (agent Gazda)",
+   "total": 0,
+   "on_sites": 0
+  },
+  "notable": []
+ },
+ {
+  "id": "RWI-W-OTTAWA-2026-11-07",
+  "date": "2026-11-07",
+  "flight_day": "2026-11-06",
+  "flights": {
+   "rcaf": 4
+  },
+  "heat": {
+   "source": "FIRMS area API (agent Gazda)",
+   "total": 0,
+   "on_sites": 0
+  },
+  "notable": []
+ },
+ {
+  "id": "RWI-W-OTTAWA-2026-11-06",
+  "date": "2026-11-06",
+  "flight_day": "2026-11-05",
+  "flights": {
+   "rcaf": 4
+  },
+  "heat": {
+   "source": "FIRMS area API (agent Gazda)",
+   "total": 0,
+   "on_sites": 0
+  },
+  "notable": []
+ },
+ {
+  "id": "RWI-W-OTTAWA-2026-11-05",
+  "date": "2026-11-05",
+  "flight_day": "2026-11-04",
+  "flights": {
+   "rcaf": 2,
+   "other": 1,
+   "us-military": 1
+  },
+  "heat": {
+   "source": "FIRMS area API (agent Gazda)",
+   "total": 0,
+   "on_sites": 0
+  },
+  "notable": []
+ },
+ {
+  "id": "RWI-W-OTTAWA-2026-11-04",
+  "date": "2026-11-04",
+  "flight_day": "2026-11-03",
+  "flights": {
+   "rcaf": 2,
+   "other": 1
+  },
+  "heat": {
+   "source": "FIRMS area API (agent Gazda)",
+   "total": 0,
+   "on_sites": 0
+  },
+  "notable": []
+ },
+ {
+  "id": "RWI-W-OTTAWA-2026-11-03",
+  "date": "2026-11-03",
+  "flight_day": "2026-11-02",
+  "flights": {
+   "rcaf": 7,
+   "us-military": 1
+  },
+  "heat": {
+   "source": "FIRMS area API (agent Gazda)",
+   "total": 0,
+   "on_sites": 0
+  },
+  "notable": []
+ },
+ {
+  "id": "RWI-W-OTTAWA-2026-11-02",
+  "date": "2026-11-02",
+  "flight_day": "2026-11-01",
+  "flights": {
+   "other": 1
+  },
+  "heat": {
+   "source": "FIRMS area API (agent Gazda)",
+   "total": 0,
+   "on_sites": 0
+  },
+  "notable": []
+ },
+ {
+  "id": "RWI-W-OTTAWA-2026-11-01",
+  "date": "2026-11-01",
+  "flight_day": "2026-10-31",
+  "flights": {
+   "rcaf": 3
+  },
+  "heat": {
+   "source": "FIRMS area API (agent Gazda)",
+   "total": 0,
+   "on_sites": 0
+  },
+  "notable": []
+ }
+]

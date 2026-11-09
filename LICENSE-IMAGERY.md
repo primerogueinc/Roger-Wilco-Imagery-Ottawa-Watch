@@ -1,6 +1,6 @@
 # Imagery licence
 
-The MIT licence in `LICENSE` covers code only. It does **not** cover the images or `index.json` in this repository.
+The MIT licence in `LICENSE` covers code only. It does **not** cover the images, the Watch issues or the index files in this repository.
 
 ## Underlying data: Copernicus Sentinel-2
 
@@ -11,9 +11,11 @@ use, including commercially, with attribution. Any use must carry:
 
 Nothing here restricts the rights the Copernicus licence gives you over the original Sentinel-2 data, which you can obtain directly.
 
+Flight data in the issues comes from adsb.lol (Open Database Licence); heat from NASA FIRMS (open, with attribution).
+
 ## RWI's processing: Roger Wilco Imagery Terms of Use
 
-The processed quicklooks, their selection and the index are RWI Materials under the
+The processed quicklooks, the Watch issues and plates, their selection and the indexes are RWI Materials under the
 [Roger Wilco Imagery Terms of Use](https://rogerwilcoimagery.com/terms.html). In short:
 
 - **Free for journalists and students, for non-commercial use**, and for reporting, research, criticism, review and education with

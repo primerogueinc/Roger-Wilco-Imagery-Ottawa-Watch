@@ -1,0 +1,110 @@
+{
+ "id": "RWI-W-OTTAWA-2026-11-08",
+ "watch": "ottawa",
+ "title": "Ottawa Watch",
+ "date": "2026-11-08",
+ "flight_day": "2026-11-07",
+ "plates": [
+  {
+   "file": "flights.png",
+   "label": "Flights 2026-11-07"
+  },
+  {
+   "file": "S2_ott-24-sussex.jpg",
+   "site": "ott-24-sussex",
+   "sensor": "Sentinel-2",
+   "time": "2026-11-08T16:10:31.911000+00:00"
+  },
+  {
+   "file": "S2_ott-rideau-hall.jpg",
+   "site": "ott-rideau-hall",
+   "sensor": "Sentinel-2",
+   "time": "2026-11-08T16:10:31.911000+00:00"
+  },
+  {
+   "file": "S2_ott-campus-tunneys-pasture.jpg",
+   "site": "ott-campus-tunneys-pasture",
+   "sensor": "Sentinel-2",
+   "time": "2026-11-08T16:10:31.911000+00:00"
+  },
+  {
+   "file": "S2_ott-campus-confederation-heights.jpg",
+   "site": "ott-campus-confederation-heights",
+   "sensor": "Sentinel-2",
+   "time": "2026-11-08T16:10:31.911000+00:00"
+  },
+  {
+   "file": "S2_ott-campus-ogilvie-intel.jpg",
+   "site": "ott-campus-ogilvie-intel",
+   "sensor": "Sentinel-2",
+   "time": "2026-11-08T16:10:31.911000+00:00"
+  },
+  {
+   "file": "S2_ott-downtown-core.jpg",
+   "site": "ott-downtown-core",
+   "sensor": "Sentinel-2",
+   "time": "2026-11-08T16:10:31.911000+00:00"
+  },
+  {
+   "file": "S2_ott-gatineau-core.jpg",
+   "site": "ott-gatineau-core",
+   "sensor": "Sentinel-2",
+   "time": "2026-11-08T16:10:31.911000+00:00"
+  }
+ ],
+ "notable": [],
+ "flights": {
+  "rcaf": 3,
+  "other": 1,
+  "us-military": 1
+ },
+ "heat": {
+  "source": "FIRMS area API (agent Gazda)",
+  "total": 0,
+  "on_sites": 0
+ },
+ "imagery": {
+  "ott-24-sussex": {
+   "pass": "2026-11-08T16:10:31.911000+00:00",
+   "clear": 1.0,
+   "new": true,
+   "plate": "S2_ott-24-sussex.jpg"
+  },
+  "ott-rideau-hall": {
+   "pass": "2026-11-08T16:10:31.911000+00:00",
+   "clear": 1.0,
+   "new": true,
+   "plate": "S2_ott-rideau-hall.jpg"
+  },
+  "ott-campus-tunneys-pasture": {
+   "pass": "2026-11-08T16:10:31.911000+00:00",
+   "clear": 0.99,
+   "new": true,
+   "plate": "S2_ott-campus-tunneys-pasture.jpg"
+  },
+  "ott-campus-confederation-heights": {
+   "pass": "2026-11-08T16:10:31.911000+00:00",
+   "clear": 0.99,
+   "new": true,
+   "plate": "S2_ott-campus-confederation-heights.jpg"
+  },
+  "ott-campus-ogilvie-intel": {
+   "pass": "2026-11-08T16:10:31.911000+00:00",
+   "clear": 0.96,
+   "new": true,
+   "plate": "S2_ott-campus-ogilvie-intel.jpg"
+  },
+  "ott-downtown-core": {
+   "pass": "2026-11-08T16:10:31.911000+00:00",
+   "clear": 0.99,
+   "new": true,
+   "plate": "S2_ott-downtown-core.jpg"
+  },
+  "ott-gatineau-core": {
+   "pass": "2026-11-08T16:10:31.911000+00:00",
+   "clear": 0.99,
+   "new": true,
+   "plate": "S2_ott-gatineau-core.jpg"
+  }
+ }
+}

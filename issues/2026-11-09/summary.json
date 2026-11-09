@@ -1,0 +1,63 @@
+{
+ "id": "RWI-W-OTTAWA-2026-11-09",
+ "watch": "ottawa",
+ "title": "Ottawa Watch",
+ "date": "2026-11-09",
+ "flight_day": "2026-11-08",
+ "plates": [
+  {
+   "file": "flights.png",
+   "label": "Flights 2026-11-08"
+  }
+ ],
+ "notable": [
+  "2 foreign military aircraft in the area (Netherlands, United Kingdom); 2 only using Ottawa Macdonald-Cartier (CYOW)."
+ ],
+ "flights": {
+  "foreign-military": 2,
+  "rcaf": 3,
+  "other": 3
+ },
+ "heat": {
+  "source": "FIRMS area API (agent Gazda)",
+  "total": 0,
+  "on_sites": 0
+ },
+ "imagery": {
+  "ott-24-sussex": {
+   "pass": "2026-11-08T16:10:31.911000+00:00",
+   "clear": 1.0,
+   "new": false
+  },
+  "ott-rideau-hall": {
+   "pass": "2026-11-08T16:10:31.911000+00:00",
+   "clear": 1.0,
+   "new": false
+  },
+  "ott-campus-tunneys-pasture": {
+   "pass": "2026-11-08T16:10:31.911000+00:00",
+   "clear": 0.99,
+   "new": false
+  },
+  "ott-campus-confederation-heights": {
+   "pass": "2026-11-08T16:10:31.911000+00:00",
+   "clear": 0.99,
+   "new": false
+  },
+  "ott-campus-ogilvie-intel": {
+   "pass": "2026-11-08T16:10:31.911000+00:00",
+   "clear": 0.96,
+   "new": false
+  },
+  "ott-downtown-core": {
+   "pass": "2026-11-08T16:10:31.911000+00:00",
+   "clear": 0.99,
+   "new": false
+  },
+  "ott-gatineau-core": {
+   "pass": "2026-11-08T16:10:31.911000+00:00",
+   "clear": 0.99,
+   "new": false
+  }
+ }
+}
